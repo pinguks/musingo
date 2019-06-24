@@ -1,0 +1,53 @@
+.Player {
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Player-song-image {
+  background-color: #eee;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Player-song-title {
+  color: #fff;
+  padding: 6rem;
+}
+
+.Player-controls {
+  background-color: green;
+  height: 20%;
+}
+
+/* .Player-progressbar {
+  height: 6px;
+  background-color: aqua;
+} */
+
+.Player-buttons {
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Player-play {
+  height: 80px;
+  width: 80px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.Player-play i {
+  color: #10eaf0;
+  font-size: 3rem;
+}

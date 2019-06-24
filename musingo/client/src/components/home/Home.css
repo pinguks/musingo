@@ -1,0 +1,128 @@
+.Home {
+  height: 100%;
+  width: 100%;
+}
+
+.Home-recently-no-content {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-recently {
+  margin: 1rem 0 2rem 0;
+}
+
+.Home-recently-played {
+  overflow: scroll;
+  display: flex;
+}
+
+.Home-recently-item {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.Home-recently-played::-webkit-scrollbar {
+  display: none;
+}
+
+.Home-recently-item:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.Home-recently-item-text {
+  padding: 0.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-recently-item-image img {
+  width: 150px;
+  height: 150px;
+}
+
+/*--------------------------------------------------------------*/
+
+.Playlist-text {
+  margin-bottom: 1rem;
+}
+
+.Playlist-create-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #313131;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  color: #ccc;
+}
+
+.Playlists-container {
+  padding: 1rem 0;
+}
+
+.Playlist-item {
+  display: flex;
+}
+
+.Playlist-item-icon {
+  font-size: 3rem;
+}
+
+.Playlist-item-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Playlist-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Playlist-modal-content {
+  border: 1px solid #eee;
+  background-color: black;
+  padding: 2rem;
+}
+
+.Playlist-modal-content form {
+  text-align: center;
+}
+
+.Playlist-modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.Playlist-modal-input {
+  font-size: 1.5rem;
+  display: block;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.Playlist-modal-submit {
+  font-size: 1.2rem;
+  color: #eee;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #2a363b;
+}

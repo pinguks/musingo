@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  color: #ccc;
+}
+
+.App {
+  height: 100vh;
+  background-color: #000;
+}
+
+.Content {
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+  padding: 1rem;
+}
+
+.Centered {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

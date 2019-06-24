@@ -1,0 +1,51 @@
+.Auth {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Auth-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.Auth-logo {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.Auth-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+.Auth-btn {
+  outline: none;
+  border-radius: 2px;
+  padding: 0.6rem 0.9rem;
+  display: flex;
+  align-items: center;
+  background-color: #ccc;
+  border: none;
+}
+
+.Auth-btn .icon {
+  color: #2a363b;
+  font-size: 1.6rem;
+}
+
+.Auth-continue {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+
+.Auth-username {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #10eaf0;
+}

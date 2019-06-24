@@ -1,0 +1,30 @@
+.Navbar {
+  height: 60px;
+  padding: 0.5rem;
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #10eaf0;
+}
+
+.Navbar-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Navbar-btn {
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.Navbar-btn .icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.Navbar-container .active {
+  transform: scale(1.2);
+}
